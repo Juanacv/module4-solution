@@ -8,6 +8,7 @@
 	function MenuConfig($stateProvider, $urlRouterProvider) {
 
 	  // Redirect to tab 1 if no other URL matches
+	  $urlRouterProvider.otherwise('/');
 
 
 	  // Set up UI states
