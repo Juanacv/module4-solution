@@ -3,7 +3,7 @@
 
 angular.module('Data')
 .component('categories', {
-  templateUrl: 'src/categorieslist.template.html',
+  templateUrl: 'categorieslist.template.html',
   bindings: {
     items: '<'
   }
